@@ -1,0 +1,123 @@
+#homepage-right, #homepage-left {
+	width: 460px;
+}
+#homepage-left {
+	float: left;
+}
+
+#homepage-right {
+	float: right;
+}
+
+.front .sidebar .block {
+	border-color: #DDD;
+}
+
+#homepage-left > .section{
+	padding: 0 5px 0 0;
+}
+
+#homepage-right > .section {
+	padding: 0 0 0 5px;
+}
+
+.front .view  .views-field-created, .front .view .views-field-field-data {
+	float: right;
+}
+
+.front .view .views-field-title {
+	float: left;
+}
+
+/* titolo prima notizia in evidenza */
+.front .view-display-id-block_1 .views-field-title {
+	float:none;
+}
+
+
+/* titolo prima notizia in evidenza */
+.front .view-display-id-block_1 .attachment .views-field-title {
+	float:left;
+}
+
+
+
+/* titolo prima notizia in evidenza */
+.front .view-display-id-block_1 .views-field-title h3{
+margin-top:0px;
+}
+
+
+.front #block-views-eventi-block .views-row,  .front #block-views-notizie-block-1 .views-row{
+clear: both;
+position: relative;
+padding-top: 11px;
+border-bottom: 1px solid #DDD;
+}
+.front .view-display-id-attachment_1 .views-row, .front #block-views-eventi-block .views-row {
+height: 20px;
+}
+
+.front .more-link {
+	margin-top: 15px;
+	clear:both;
+}
+
+.front #user-login-form .form-item-name,
+.front #user-login-form .form-item-pass {
+	float: left;
+	margin: 0 5px;
+}
+
+.front #user-login-form .item-list {
+	float: left;
+	width: 50%;
+}
+.front #user-login-form #edit-submit--2 {
+	margin-top: 10px;
+}
+
+.front #block-user-login {
+	min-height: 140px;
+}
+
+/* LE PORCATE DELLE 2 DEL MATTINO cc/ @mavimo */
+
+.without-secondary-menu .region-header { 
+	margin-top:-20px; 
+	margin-bottom:0;
+}
+
+.without-secondary-menu .region-header #block-superfish-1 ul li {
+	background:none;
+	margin-left:5px;
+}
+
+.without-secondary-menu .region-header #block-superfish-1 ul li:first-child {
+	margin-left:0;
+}
+
+
+.without-secondary-menu .region-header #block-superfish-1 ul li a {
+	background:white;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	color:#666;
+	font-size:1.1em;
+}
+
+.without-secondary-menu .region-header #block-superfish-1 ul li > ul {
+	background:white;
+	outline:1px solid #ddd;
+
+}
+
+.without-secondary-menu .region-header #block-superfish-1 ul li ul li {
+	border:0;
+}
+
+.without-secondary-menu .region-header #block-superfish-1 ul li ul li a {
+	border-radius:0;
+	border:0;
+
+}
